@@ -1,1 +1,31 @@
+Enter number of memory blocks: 5
+Enter sizes of 5 memory blocks:
+100 500 200 300 600
+Enter number of processes: 4
+Enter sizes of 4 processes:
+212 417 112 426
+
+--- First Fit ---
+Process No.     Process Size    Block No.
+1               212             2
+2               417             5
+3               112             2
+4               426             Not Allocated
+
+--- Best Fit ---
+Process No.     Process Size    Block No.
+1               212             4
+2               417             2
+3               112             3
+4               426             5
+
+--- Worst Fit ---
+Process No.     Process Size    Block No.
+1               212             5
+2               417             2
+3               112             5
+4               426             Not Allocated
+
+Process returned 0 (0x0)   execution time : 38.077 s
+Press any key to continue.
 
