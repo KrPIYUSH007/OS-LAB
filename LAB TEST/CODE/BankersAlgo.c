@@ -1,3 +1,4 @@
+// PENDING
 #include<studio.h>
 #define MaxP 10
 #define MaxR 10
