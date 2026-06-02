@@ -1,4 +1,4 @@
-/*Wont work on all systems
+/*Wont work on all systems MAYBE
 #include<stdio.h>
 #include<pthread.h>
 #include<semaphore.h>
